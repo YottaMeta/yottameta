@@ -156,8 +156,8 @@ A：多为 **WebView2 未装好**；请联网重装，或手动安装 [Microsoft
 **Q：Release 里为什么有 Source code zip？**  
 A：GitHub 自动生成，内容仅为 **本 README**，不是 YottaMeta 工程源码。
 
-**Q：和 Cursor / IDE 插件有什么区别？**  
-A：YottaMeta 擅长 **长任务、工作区绑定、透明时间线、本地智能体运行时**（开发、办公、知识库等）；IDE 擅长行内编辑与索引。二者可配合使用。
+**Q：和 IDE 里的 AI 助手有什么区别？**  
+A：YottaMeta 是 **绑定工作区的桌面智能体运行时**——长任务、透明时间线、终端与记忆、技能/MCP 在同一应用里闭环；IDE 内助手擅长行内编辑与代码索引。可按场景配合使用，也可以单独用 YottaMeta 推进项目级任务。
 
 ---
 
