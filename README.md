@@ -43,9 +43,21 @@
 | 项 | 要求 |
 |----|------|
 | 系统 | Windows 10 64 位（1803+）或 Windows 11 |
-| 运行时 | 安装程序会自动处理 WebView2；离线环境请确保可访问微软 WebView2 运行时 |
+| 运行时 | 安装程序会自动处理 **WebView2**；离线环境请预装 [WebView2 独立安装包](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) |
 | 磁盘 | 建议 ≥ 2GB 可用空间 |
-| 网络 | 试用/激活需联网校验；模型调用取决于你配置的 API |
+| 网络 | 试用/激活需联网；模型调用取决于你配置的 API |
+
+**按功能额外依赖（重要）**
+
+| 你想用… | 本机还要装什么 |
+|---------|----------------|
+| 聊天、工作空间、终端、大部分技能 | **无**（随安装包） |
+| **网页浏览 / 截图 / browse 类技能** | **[Node.js LTS](https://nodejs.org/en/download)**（Windows x64 安装包）· 装完 **重启 Windows** 再开 YottaMeta · 设置 → 扩展 → 网页浏览组件 应显示「就绪」 |
+| MCP 远程服务（如腾讯文档） | 网络 + 服务商 Token · **无需** Python |
+| MCP 本地 stdio（如渗透桥接） | 按 MCP 页说明 · 常见为 **Python 3** |
+| Tavily 联网搜索 | Tavily API Key（自备） |
+
+> **npm ≠ Node.js：** 只装 npm 不能代替 Node 运行时。完整说明见仓库文档 [系统依赖与环境要求](../docs/使用文档/YottaMeta-系统依赖与环境要求.md)（发版同步至 GitHub Wiki / 文档站时同文）。
 
 ---
 
